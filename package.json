@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "pnpm -r --stream --parallel run dev",
-    "build": "pnpm -r run build"
+    "build": "pnpm -r run build",
+    "deploy": "pnpm --filter=my-app --prod deploy dist"
   },
   "keywords": [],
   "author": "",
